@@ -1,0 +1,84 @@
+<html>
+<title>comics</title>
+<style>
+body {
+background-image: linear-gradient(to bottom, #91ADC8, #748DAE);
+}
+</style>
+
+<link rel= "stylesheet" type="text/css" href="button.css">
+
+<style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family:Courier New;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<center>
+<div id="navbar">
+  <a href="Index.html">News</a>
+  <a href="fashion.html">Fashion</a>
+  <a href="sports and entertainment.html">Sports And Entertainment</a>
+  <a href="comic.html">Comics</a>
+</div>
+<body>
+<div class=div2> 
+<p class="b1">FUNNY COMICS</p>
+<p class="b2">SHIPPING IN A NUTSHELL</p><br>
+<img src="fun.webp"><br>
+
+<p class="b2">How To Lie</p><br>
+<img src="lie.jpg"><br>
+
+<p class="b2">Relatable</p><br>
+<h4>By Jamie Anne Uy</h4><br>
+<img src="jamie.jpg" height=800 width=900><br>
+
+<p class="b2">How to: Prepare for a vacation</p>
+<img src="why.jpg"><br>
+
+
+</div>
+
+<p class="b2">More Content Soon... Eventually...Probably Never</p>
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+</body>
+</html>

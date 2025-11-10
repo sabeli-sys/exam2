@@ -1,0 +1,144 @@
+p.text
+{
+font-family:Courier New;
+border-style:solid;
+text-decoration:none;
+color:#1A2A4F;
+}
+
+.div1
+{
+	background-color:white;
+	font-size:20;
+	font-family:Courier New;
+	height:2500px;
+	width:900px;
+	padding:50px;
+	
+}
+
+.container 
+{
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+ 
+}
+.web
+{
+	font-size:20;
+	font-family:Courier New;
+
+}
+
+a:hover
+{
+	
+	background-color: #6FA4AF;
+	color:white;
+	border-radius:10px;
+	padding:4px;
+}
+
+
+
+
+
+
+
+/*comic page*/
+
+.div2
+{
+	background-color:white;
+	font-size:20;
+	font-family:Courier New;
+	height:4000px;
+	width:1000px;
+	padding:50px;
+}
+
+/*fashion page*/
+
+.div3
+{
+	border: none;
+	Background-color:white;
+	font-size:20px;
+	font-family:Courier New;
+	height:500px;
+	width:500px;
+	padding:50px;
+	width: 50%;
+	margin: 0 auto;
+}
+.div4
+{
+	border: none;
+	Background-color:white;
+	font-size:20px;
+	font-family:Courier New;
+	height:500px;
+	width:500px;
+	padding:50px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.div5
+{
+	border: none;
+	Background-color:white;
+	font-size:20px;
+	font-family:Courier New;
+	height:500px;
+	width:500px;
+	padding:50px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+
+.div6
+{
+	border: none;
+	font-size:20px;
+	font-family:Courier New;
+	padding:50px;
+	background-color:white;
+	border:none;
+	height:300px;
+	width:auto;
+}
+.div7
+{
+	border: none;
+	font-size:20px;
+	font-family:Courier New;
+	padding:50px;
+	background-color:white;
+	border:none;
+	height:300px;
+	width:auto;
+}
+p.b1
+{
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  background-color:black;
+  font-size:90px;
+  color:#5D688A;
+  margin:auto;
+}
+
+p.b2
+{
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 3px;
+  background-color:black;
+  font-size:50px;
+  color:#5D688A;
+}
